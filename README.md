@@ -1,2 +1,184 @@
-# MaulanaIbrahim-Website
-saya ingin mengembangkan web saya sendiri 
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profil Mahasiswa - Maulana Ibrahim</title>
+  <meta name="description" content="Profil pribadi Maulana Ibrahim — Mahasiswa Teknik Informatika." />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- Icon CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    :root{--bg:#0f172a;--glass:rgba(255,255,255,0.06);--accent:#7c3aed}
+    body{font-family:Inter,ui-sans-serif; background:var(--bg); color:#e6eef8; scroll-behavior:smooth}
+    .frost{backdrop-filter:blur(8px);background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06)}
+    .reveal{opacity:0;transform:translateY(18px);transition:all .7s ease}
+    .reveal.show{opacity:1;transform:translateY(0)}
+    .accent-underline{background:linear-gradient(90deg,var(--accent),#06b6d4);height:4px;border-radius:999px}
+    .glass-btn{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);padding:.6rem 1rem;border-radius:10px;display:inline-flex;align-items:center;gap:.5rem}
+    .floaty{animation:float 6s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    .glow{box-shadow:0 0 25px rgba(124,58,237,0.7)}
+    .active-link{color:#fff !important; font-weight:600; border-bottom:2px solid var(--accent)}
+  </style>
+</head>
+<body class="antialiased leading-relaxed">
+
+  <!-- NAVBAR -->
+  <nav class="fixed w-full z-40 top-6 left-0 px-6">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <a href="#beranda" class="flex items-center gap-3 glass-btn">
+        <div class="w-9 h-9 rounded-full flex items-center justify-center bg-gradient-to-br from-purple-500 to-cyan-400 text-black font-bold">MI</div>
+        <div class="hidden sm:block text-sm">Maulana Ibrahim</div>
+      </a>
+      <div class="hidden md:flex items-center gap-4" id="navbar-links">
+        <a href="#tentang" class="text-sm hover:text-white/90">Tentang</a>
+        <a href="#pendidikan" class="text-sm hover:text-white/90">Pendidikan</a>
+        <a href="#hobi" class="text-sm hover:text-white/90">Hobi</a>
+        <a href="#kontak" class="text-sm hover:text-white/90">Kontak</a>
+        <a href="mailto:maulana@example.com" class="glass-btn text-sm">Hubungi</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="max-w-6xl mx-auto px-6 pt-16 relative z-10">
+
+    <!-- HERO -->
+    <section id="beranda" class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-screen">
+      <div>
+        <h1 class="mt-3 text-4xl sm:text-5xl font-extrabold leading-tight reveal">Halo, saya <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-300">Maulana Ibrahim</span></h1>
+        <p class="mt-4 text-slate-300 max-w-xl reveal">Saya mahasiswa Teknik Informatika yang tertarik dengan pengembangan web, desain antarmuka, dan teknologi kreatif.</p>
+        <div class="mt-6 flex items-center gap-3 reveal">
+          <a class="glass-btn inline-flex items-center gap-3" href="#kontak"><i class="fa-solid fa-paper-plane"></i> Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="flex flex-col items-center md:items-end">
+        <img src="profil.jpg" alt="Foto Profil Maulana Ibrahim" class="w-40 h-40 rounded-full object-cover border-4 border-purple-500 glow floaty" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="tentang" class="mt-16">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-1/3 md:w-1/4"><div class="accent-underline"></div></div>
+        <h2 class="text-2xl font-bold">Tentang Saya</h2>
+      </div>
+      <div class="frost p-6 rounded-xl reveal">
+        <p class="text-slate-300">Saya seorang mahasiswa aktif jurusan Teknik Informatika yang gemar mempelajari teknologi terbaru, khususnya di bidang pengembangan web. Fokus saya adalah membuat website yang menarik, interaktif, dan responsif.</p>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="pendidikan" class="mt-16">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-1/3 md:w-1/4"><div class="accent-underline"></div></div>
+        <h2 class="text-2xl font-bold">Riwayat Pendidikan</h2>
+      </div>
+      <div class="space-y-4">
+        <div class="frost p-4 rounded-xl reveal">
+          <h4 class="font-semibold">Universitas Trunojoyo Madura</h4>
+          <p class="text-sm text-slate-300">Menempuh S1 Teknik Informatika Sekarang</p>
+        </div>
+        <div class="frost p-4 rounded-xl reveal">
+          <h4 class="font-semibold">SMK Darul Ulum Banyuanyar</h4>
+          <p class="text-sm text-slate-300">Jurusan Teknik Komputer Dan Jaringan — 2021 - 2023</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOBBY -->
+    <section id="hobi" class="mt-16">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-1/3 md:w-1/4"><div class="accent-underline"></div></div>
+        <h2 class="text-2xl font-bold">Hobi & Minat</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="frost p-6 rounded-xl reveal">
+          <ul class="list-disc list-inside space-y-2 text-slate-300">
+            <li>Belajar coding</li>
+            <li>Belajar Desain</li>
+            <li>Travelling</li>
+          </ul>
+        </div>
+        <div class="frost p-6 rounded-xl reveal">
+          <ul class="list-disc list-inside space-y-2 text-slate-300">
+            <li>Bermain futsal dan olahraga ringan</li>
+            <li>Mendengarkan musik</li>
+            <li>Becanda Sama Temen</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="kontak" class="mt-16 mb-24">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-1/3 md:w-1/4"><div class="accent-underline"></div></div>
+        <h2 class="text-2xl font-bold">Kontak & Sosial Media</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="frost p-6 rounded-xl reveal">
+          <h4 class="font-semibold">Hubungi Saya</h4>
+          <ul class="mt-4 text-sm text-slate-300 space-y-2">
+            <li><i class="fa-solid fa-envelope"></i> Email: <strong>maulanaibrahimm709@example.com</strong></li>
+            <li><i class="fa-solid fa-phone"></i> Telepon: <strong>+62 812-4956-5406</strong></li>
+          </ul>
+          <div class="mt-4 flex gap-2 flex-wrap">
+            <a href="https://www.instagram.com/rzkyibrhm____" target="_blank" class="glass-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://www.tiktok.com/@rzkyibrhm04" target="_blank" class="glass-btn"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+            <a href="https://wa.me/6281234567890" target="_blank" class="glass-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+          </div>
+        </div>
+        <form class="frost p-6 rounded-xl reveal" onsubmit="event.preventDefault(); alert('Pesan terkirim!');">
+          <label class="block text-sm text-slate-400">Nama</label>
+          <input required class="mt-2 w-full p-3 rounded-md bg-transparent border border-white/6" placeholder="Nama Anda" />
+          <label class="block text-sm text-slate-400 mt-4">Email</label>
+          <input required type="email" class="mt-2 w-full p-3 rounded-md bg-transparent border border-white/6" placeholder="email@contoh.com" />
+          <label class="block text-sm text-slate-400 mt-4">Pesan</label>
+          <textarea required class="mt-2 w-full p-3 rounded-md bg-transparent border border-white/6" rows="4" placeholder="Tulis pesan..."></textarea>
+          <div class="mt-4 text-right">
+            <button type="submit" class="glass-btn"><i class="fa-solid fa-paper-plane"></i> Kirim</button></
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-sm text-slate-400 pb-12">© <span id="year"></span> Maulana Ibrahim.</footer>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+
+    // Reveal animation
+    const obs = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{if(e.isIntersecting) e.target.classList.add('show')})
+    },{threshold:0.12});
+    document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+    // Navbar active link highlight
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("#navbar-links a");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        if (scrollY >= sectionTop) current = section.getAttribute("id");
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove("active-link");
+        if (link.getAttribute("href") === `#${current}`) {
+          link.classList.add("active-link");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
