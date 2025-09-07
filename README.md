@@ -52,7 +52,7 @@
     <section id="beranda" class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-screen">
       <div>
         <h1 class="mt-3 text-4xl sm:text-5xl font-extrabold leading-tight reveal">Halo, saya <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-300">Maulana Ibrahim</span></h1>
-        <p class="mt-4 text-slate-300 max-w-xl reveal">Saya mahasiswa Teknik Informatika yang tertarik dengan pengembangan web, desain antarmuka, dan teknologi kreatif.</p>
+        <p class="mt-4 text-slate-300 max-w-xl reveal">Saya mahasiswa Teknik Informatika yang tertarik dengan pemrograman, desain antarmuka, dan teknologi kreatif.</p>
         <div class="mt-6 flex items-center gap-3 reveal">
           <a class="glass-btn inline-flex items-center gap-3" href="#kontak"><i class="fa-solid fa-paper-plane"></i> Hubungi Saya</a>
         </div>
@@ -69,7 +69,7 @@
         <h2 class="text-2xl font-bold">Tentang Saya</h2>
       </div>
       <div class="frost p-6 rounded-xl reveal">
-        <p class="text-slate-300">Saya seorang mahasiswa aktif jurusan Teknik Informatika yang gemar mempelajari teknologi terbaru, khususnya di bidang pengembangan web. Fokus saya adalah membuat website yang menarik, interaktif, dan responsif.</p>
+        <p class="text-slate-300">Saya seorang mahasiswa aktif Universitas Trunojoyo Madura Fakultas Teknik Program Studi Teknik Informatika yang gemar mempelajari teknologi terbaru. Fokus saya adalah pemrograman seperti Html Css Dan lain sebagainya.</p>
       </div>
     </section>
 
@@ -82,13 +82,16 @@
       <div class="space-y-4">
         <div class="frost p-4 rounded-xl reveal">
           <h4 class="font-semibold">Universitas Trunojoyo Madura</h4>
-          <p class="text-sm text-slate-300">Menempuh S1 Teknik Informatika Sekarang</p>
+          <p class="text-sm text-slate-300">Menempuh S1 Teknik Informatika - Sekarang</p>
         </div>
         <div class="frost p-4 rounded-xl reveal">
           <h4 class="font-semibold">SMK Darul Ulum Banyuanyar</h4>
-          <p class="text-sm text-slate-300">Jurusan Teknik Komputer Dan Jaringan — 2021 - 2023</p>
+          <p class="text-sm text-slate-300">Jurusan Teknik Komputer Dan Jaringan — 2022 - 2024</p>
         </div>
-      </div>
+          <div class="frost p-4 rounded-xl reveal">
+          <h4 class="font-semibold">MTS Darul Ulum II</h4>
+          <p class="text-sm text-slate-300">Tahun 2018 - 2021</p>
+          </div>
     </section>
 
     <!-- HOBBY -->
@@ -129,9 +132,9 @@
             <li><i class="fa-solid fa-phone"></i> Telepon: <strong>+62 812-4956-5406</strong></li>
           </ul>
           <div class="mt-4 flex gap-2 flex-wrap">
-            <a href="https://www.instagram.com/rzkyibrhm____" target="_blank" class="glass-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://www.instagram.com/@rzkyibrhm___" target="_blank" class="glass-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
             <a href="https://www.tiktok.com/@rzkyibrhm04" target="_blank" class="glass-btn"><i class="fa-brands fa-tiktok"></i> TikTok</a>
-            <a href="https://wa.me/6281234567890" target="_blank" class="glass-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://wa.me/6281249565406" target="_blank" class="glass-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
           </div>
         </div>
         <form class="frost p-6 rounded-xl reveal" onsubmit="event.preventDefault(); alert('Pesan terkirim!');">
