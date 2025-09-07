@@ -69,7 +69,7 @@
         <h2 class="text-2xl font-bold">Tentang Saya</h2>
       </div>
       <div class="frost p-6 rounded-xl reveal">
-        <p class="text-slate-300">Saya seorang mahasiswa aktif Universitas Trunojoyo Madura Fakultas Teknik Program Studi Teknik Informatika yang gemar mempelajari teknologi terbaru. Fokus saya adalah pemrograman seperti Html Css Dan lain sebagainya.</p>
+        <p class="text-slate-300">Saya seorang mahasiswa aktif Universitas Trunojoyo Madura Fakultas Teknik Program Studi Teknik Informatika yang gemar mempelajari teknologi terbaru. Fokus saya adalah pemrograman seperti HTML, CSS, dan lain sebagainya.</p>
       </div>
     </section>
 
@@ -88,10 +88,11 @@
           <h4 class="font-semibold">SMK Darul Ulum Banyuanyar</h4>
           <p class="text-sm text-slate-300">Jurusan Teknik Komputer Dan Jaringan — 2022 - 2024</p>
         </div>
-          <div class="frost p-4 rounded-xl reveal">
+        <div class="frost p-4 rounded-xl reveal">
           <h4 class="font-semibold">MTS Darul Ulum II</h4>
           <p class="text-sm text-slate-300">Tahun 2018 - 2021</p>
-          </div>
+        </div>
+      </div>
     </section>
 
     <!-- HOBBY -->
@@ -104,7 +105,7 @@
         <div class="frost p-6 rounded-xl reveal">
           <ul class="list-disc list-inside space-y-2 text-slate-300">
             <li>Belajar coding</li>
-            <li>Belajar Desain</li>
+            <li>Belajar desain</li>
             <li>Travelling</li>
           </ul>
         </div>
@@ -112,7 +113,7 @@
           <ul class="list-disc list-inside space-y-2 text-slate-300">
             <li>Bermain futsal dan olahraga ringan</li>
             <li>Mendengarkan musik</li>
-            <li>Becanda Sama Temen</li>
+            <li>Bercanda sama teman</li>
           </ul>
         </div>
       </div>
@@ -132,7 +133,7 @@
             <li><i class="fa-solid fa-phone"></i> Telepon: <strong>+62 812-4956-5406</strong></li>
           </ul>
           <div class="mt-4 flex gap-2 flex-wrap">
-            <a href="https://www.instagram.com/@rzkyibrhm___" target="_blank" class="glass-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://www.instagram.com/rzkyibrhm___" target="_blank" class="glass-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
             <a href="https://www.tiktok.com/@rzkyibrhm04" target="_blank" class="glass-btn"><i class="fa-brands fa-tiktok"></i> TikTok</a>
             <a href="https://wa.me/6281249565406" target="_blank" class="glass-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
           </div>
@@ -145,7 +146,7 @@
           <label class="block text-sm text-slate-400 mt-4">Pesan</label>
           <textarea required class="mt-2 w-full p-3 rounded-md bg-transparent border border-white/6" rows="4" placeholder="Tulis pesan..."></textarea>
           <div class="mt-4 text-right">
-            <button type="submit" class="glass-btn"><i class="fa-solid fa-paper-plane"></i> Kirim</button></
+            <button type="submit" class="glass-btn"><i class="fa-solid fa-paper-plane"></i> Kirim</button>
           </div>
         </form>
       </div>
