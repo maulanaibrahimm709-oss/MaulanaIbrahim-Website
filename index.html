@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rizky Ibrahim — Full-Stack Developer & UI/UX Designer</title>
+  <meta name="description"
+    content="Personal portfolio of Rizky Ibrahim — Full-Stack Developer, UI/UX Designer, and Information Systems student passionate about building impactful digital products.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <span class="loader-text">RI</span>
+      <div class="loader-bar">
+        <div class="loader-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <span class="logo-initials">RI</span>
+          <span class="logo-name">Rizky Ibrahim</span>
+        </a>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="pengalaman.html">Pengalaman</a></li>
+          <li><a href="proyek.html">Proyek</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+        <a href="kontak.html" class="btn-hire">Hire Me</a>
+        <div id="menu-toggle"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge reveal-up">
+          <span class="badge-dot"></span>
+          Available for Work · 2026
+        </div>
+        <h1 class="hero-title reveal-up">
+          Saya <em>Rizky</em>,<br>
+          <span class="hero-title-line2">Developer &</span><br>
+          <span class="hero-title-line3">Designer.</span>
+        </h1>
+        <p class="hero-desc reveal-up">
+          Mahasiswa Teknik Informatika yang membangun produk digital yang
+          belajar dunia digital, dan berdampak nyata bagi semua orang.
+        </p>
+        <div class="hero-actions reveal-up">
+          <a href="proyek.html" class="btn-primary">
+            Lihat Proyek <i class="bi bi-arrow-right"></i>
+          </a>
+          <a href="tentang.html" class="btn-ghost">Tentang Saya</a>
+        </div>
+        <div class="hero-stats reveal-up">
+          <div class="hstat">
+            <span class="hstat-num">3+</span>
+            <span class="hstat-label">Proyek Selesai</span>
+          </div>
+          <div class="hstat-divider"></div>
+          <div class="hstat">
+            <span class="hstat-num">3+</span>
+            <span class="hstat-label">Tahun Belajar</span>
+          </div>
+          <div class="hstat-divider"></div>
+          <div class="hstat">
+            <span class="hstat-num">10+</span>
+            <span class="hstat-label">Penghargaan</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual reveal-right">
+        <div class="hero-card-main">
+          <div class="hcard-avatar">
+            <div class="hcard-avatar-inner">RI</div>
+          </div>
+          <div class="hcard-info">
+            <h3>Rizky Ibrahim</h3>
+            <p>Full-Stack Developer</p>
+          </div>
+          <div class="hcard-tags">
+            <span>React</span><span>Node.js</span><span>UI/UX</span>
+          </div>
+        </div>
+        <div class="hero-card-float card-float-1">
+          <i class="bi bi-code-slash"></i>
+          <span>Clean Code</span>
+        </div>
+        <div class="hero-card-float card-float-2">
+          <i class="bi bi-trophy-fill"></i>
+          <span>Award Winner</span>
+        </div>
+        <div class="hero-card-float card-float-3">
+          <span class="float-num">98%</span>
+          <span>Client Satisfaction</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS MARQUEE -->
+  <div class="skills-marquee">
+    <div class="marquee-track">
+      <span>HTML &amp; CSS</span><span class="dot">·</span>
+      <span>JavaScript</span><span class="dot">·</span>
+      <span>React.js</span><span class="dot">·</span>
+      <span>Node.js</span><span class="dot">·</span>
+      <span>Python</span><span class="dot">·</span>
+      <span>MySQL</span><span class="dot">·</span>
+      <span>Figma</span><span class="dot">·</span>
+      <span>UI/UX Design</span><span class="dot">·</span>
+      <span>Git &amp; GitHub</span><span class="dot">·</span>
+      <span>PHP Laravel</span><span class="dot">·</span>
+      <span>REST API</span><span class="dot">·</span>
+      <span>Tailwind CSS</span><span class="dot">·</span>
+      <!-- duplicate -->
+      <span>HTML &amp; CSS</span><span class="dot">·</span>
+      <span>JavaScript</span><span class="dot">·</span>
+      <span>React.js</span><span class="dot">·</span>
+      <span>Node.js</span><span class="dot">·</span>
+      <span>Python</span><span class="dot">·</span>
+      <span>MySQL</span><span class="dot">·</span>
+      <span>Figma</span><span class="dot">·</span>
+      <span>UI/UX Design</span><span class="dot">·</span>
+      <span>Git &amp; GitHub</span><span class="dot">·</span>
+      <span>PHP Laravel</span><span class="dot">·</span>
+      <span>REST API</span><span class="dot">·</span>
+      <span>Tailwind CSS</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- ABOUT PREVIEW -->
+  <section class="about-preview section">
+    <div class="container">
+      <div class="about-prev-grid">
+        <div class="ap-left reveal-left">
+          <span class="section-eyebrow">Tentang Saya</span>
+          <h2 class="section-heading">Mahasiswa Tif yang<br><em>membangun hal nyata.</em></h2>
+          <p>Saya adalah mahasiswa Teknik Informatika semester 2 yang passionate di bidang pengembangan web dan desain
+            UI/UX. Saya percaya teknologi terbaik adalah teknologi yang benar-benar membantu manusia.</p>
+          <div class="ap-skills">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Frontend Development</span><span>90%</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-w="90"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Backend Development</span><span>80%</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-w="80"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>UI/UX Design</span><span>85%</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-w="85"></div>
+              </div>
+            </div>
+          </div>
+          <a href="tentang.html" class="btn-primary" style="margin-top:32px;">Selengkapnya <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="ap-right reveal-right">
+          <div class="ap-card-big">
+            <div class="ap-avatar">RI</div>
+            <div class="ap-card-content">
+              <h3>Rizky Ibrahim</h3>
+              <p>Mahasiswa Tif · Developer · Designer</p>
+              <div class="ap-tags">
+                <span><i class="bi bi-geo-alt-fill"></i> Universitas Trunodjoyo Madura </span>
+                <span><i class="bi bi-mortarboard-fill"></i> Teknik Informatika</span>
+              </div>
+            </div>
+          </div>
+          <div class="ap-cards-row">
+            <div class="ap-mini-card">
+              <i class="bi bi-code-slash"></i>
+              <h4>3+</h4>
+              <p>Proyek</p>
+            </div>
+            <div class="ap-mini-card">
+              <i class="bi bi-award-fill"></i>
+              <h4>10+</h4>
+              <p>Penghargaan</p>
+            </div>
+            <div class="ap-mini-card">
+              <i class="bi bi-people-fill"></i>
+              <h4>-</h4>
+              <p>Kolaborasi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS -->
+  <section class="projects-preview section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div>
+          <span class="section-eyebrow">Karya Terbaru</span>
+          <h2 class="section-heading">Proyek yang <em>pernah saya buat.</em></h2>
+        </div>
+        <a href="proyek.html" class="btn-outline">Semua Proyek <i class="bi bi-arrow-right"></i></a>
+      </div>
+      <div class="proj-grid">
+        <div class="proj-card reveal-up">
+          <div class="proj-img" style="background:linear-gradient(135deg,#667eea,#764ba2)">
+            <span class="proj-tag">Web App</span>
+            <div class="proj-overlay">
+              <a href="proyek.html" class="proj-link"><i class="bi bi-arrow-up-right"></i></a>
+            </div>
+            <div class="proj-mockup">
+              <i class="bi bi-browser-chrome"></i>
+            </div>
+          </div>
+          <div class="proj-info">
+            <h3>SiAkad — Sistem Akademik</h3>
+            <p>Platform manajemen akademik berbasis web untuk universitas dengan fitur lengkap.</p>
+            <div class="proj-stack"><span>Laravel</span><span>MySQL</span><span>Tailwind</span></div>
+          </div>
+        </div>
+        <div class="proj-card reveal-up delay-1">
+          <div class="proj-img" style="background:linear-gradient(135deg,#f093fb,#f5576c)">
+            <span class="proj-tag">Mobile UI</span>
+            <div class="proj-overlay">
+              <a href="proyek.html" class="proj-link"><i class="bi bi-arrow-up-right"></i></a>
+            </div>
+            <div class="proj-mockup">
+              <i class="bi bi-phone"></i>
+            </div>
+          </div>
+          <div class="proj-info">
+            <h3>EduTrack — Learning App</h3>
+            <p>Desain UI/UX aplikasi mobile untuk tracking progress belajar mahasiswa.</p>
+            <div class="proj-stack"><span>Figma</span><span>Prototype</span><span>UI Kit</span></div>
+          </div>
+        </div>
+        <div class="proj-card reveal-up delay-2">
+          <div class="proj-img" style="background:linear-gradient(135deg,#4facfe,#00f2fe)">
+            <span class="proj-tag">Dashboard</span>
+            <div class="proj-overlay">
+              <a href="proyek.html" class="proj-link"><i class="bi bi-arrow-up-right"></i></a>
+            </div>
+            <div class="proj-mockup">
+              <i class="bi bi-bar-chart-fill"></i>
+            </div>
+          </div>
+          <div class="proj-info">
+            <h3>DataViz — Analytics Dashboard</h3>
+            <p>Dashboard visualisasi data real-time untuk monitoring kinerja organisasi.</p>
+            <div class="proj-stack"><span>React</span><span>Chart.js</span><span>Node.js</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE PREVIEW -->
+  <section class="exp-preview section dark-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div>
+          <span class="section-eyebrow" style="color:#8b8cf8">Perjalanan</span>
+          <h2 class="section-heading" style="color:#fff">Pengalaman &<br><em style="color:#8b8cf8">Organisasi.</em></h2>
+        </div>
+        <a href="pengalaman.html" class="btn-outline-light">Lihat Semua <i class="bi bi-arrow-right"></i></a>
+      </div>
+      <div class="exp-timeline">
+        <div class="exp-item reveal-up">
+          <div class="exp-year">2019</div>
+          <div class="exp-card">
+            <div class="exp-role">Wakil Osis</div>
+            <div class="exp-org">MTS Darul Ulum II</div>
+            <p>Menjabat sebagai Wakil OSIS MTs Darul Ulum II dengan mendampingi ketua OSIS, membantu mengoordinasikan
+              kepengurusan, serta mendukung pelaksanaan program kerja dan kegiatan organisasi.
+            </p>
+          </div>
+        </div>
+        <div class="exp-item reveal-up delay-1">
+          <div class="exp-year">2023</div>
+          <div class="exp-card">
+            <div class="exp-role">Ketua Forsias</div>
+            <div class="exp-org">Forum Silaturrahmi Alumni Dan Santri</div>
+            <p>Menjabat sebagai Ketua FORSIAS (Forum
+              Silaturahmi Alumni dan Santri) dengan mengoordinasikan
+              kepengurusan, memimpin pelaksanaan program kerja, serta mempererat hubungan antaralumni dan santri.
+            </p>
+          </div>
+        </div>
+        <div class="exp-item reveal-up delay-2">
+          <div class="exp-year">2025</div>
+          <div class="exp-card">
+            <div class="exp-role">Anggota Kominfo</div>
+            <div class="exp-org">Ikatan Mahasiswa Pamekasan</div>
+            <p>sebagai Anggota Divisi Kominfo Ikatan Mahasiswa Pamekasan dengan membantu publikasi kegiatan dan
+              pengelolaan media informasi organisasi.
+            </p>
+          </div>
+        </div>
+        <div class="exp-item reveal-up delay-3">
+          <div class="exp-year">2025</div>
+          <div class="exp-card">
+            <div class="exp-role">Staf Muda</div>
+            <div class="exp-org">BEM KM Universitas Trunodjoyo Madura</div>
+            <p>Berperan sebagai Staf Muda Departemen Isu, Aksi, dan Propaganda BEM KM Universitas Trunojoyo Madura
+              dengan mendukung kajian isu, pelaksanaan aksi, serta publikasi dan penyebaran informasi organisasi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div>
+          <span class="section-eyebrow">Testimoni</span>
+          <h2 class="section-heading">Kata mereka<br><em>tentang saya.</em></h2>
+        </div>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal-up">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Rizky bekerja dengan sangat profesional dan cepat. Hasil kerjanya melampaui ekspektasi kami. Website yang
+            ia buat meningkatkan konversi bisnis kami hingga 40%."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AB</div>
+            <div>
+              <h4>Ahmad Basuki</h4>
+              <span>CEO, StartupKu.id</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal-up delay-1">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Desain UI/UX yang Rizky buat sangat intuitif dan modern. Tim kami langsung jatuh cinta dengan hasilnya.
+            Proses kolaborasi pun sangat menyenangkan."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SN</div>
+            <div>
+              <h4>Sinta Nuraini</h4>
+              <span>Product Manager, EduTech</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal-up delay-2">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Tidak hanya pintar secara teknis, Rizky juga memahami kebutuhan bisnis dengan baik. Ia memberikan solusi
+            yang tepat sasaran dan efisien."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">DR</div>
+            <div>
+              <h4>Dr. Rahmat</h4>
+              <span>Dosen Pembimbing, Universitas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box reveal-up">
+        <div class="cta-orb"></div>
+        <span class="section-eyebrow" style="color:#8b8cf8">Ayo Berkolaborasi</span>
+        <h2>Punya proyek yang ingin<br><em>kita bangun bersama?</em></h2>
+        <p>Saya terbuka untuk peluang freelance, kolaborasi proyek, maupun diskusi ide kreatif.</p>
+        <a href="kontak.html" class="btn-primary btn-lg">Mulai Percakapan <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-initials">RI</span>
+            <span class="logo-name">Rizky Ibrahim</span>
+          </a>
+          <p>Developer & Designer yang membangun produk digital berdampak dari Madura, Indonesia.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <h5>Navigasi</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="pengalaman.html">Pengalaman</a></li>
+            <li><a href="proyek.html">Proyek</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h5>Layanan</h5>
+          <ul>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">UI/UX Design</a></li>
+            <li><a href="#">Mobile App</a></li>
+            <li><a href="#">Konsultasi IT</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Rizky Ibrahim. Dibuat dengan <i class="bi bi-heart-fill"></i> & banyak ☕</p>
+        <p class="footer-tech">Built with HTML · CSS · JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Kembali ke atas"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
